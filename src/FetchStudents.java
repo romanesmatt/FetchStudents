@@ -63,13 +63,13 @@ public class FetchStudents {
 
         System.out.println("Fetching student record based on given ID...");
         fetchById(3);
-        System.out.println("All Student records fetched.");
+        System.out.println("All relevant student records fetched.");
 
         System.out.println("===============================");
 
         System.out.println("Fetching student record based on given ID...");
         fetchByDegreeAndMajor("BSc", "CS");
-
+        System.out.println("All relevant student records fetched.");
 
 
     }
